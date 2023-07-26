@@ -4,25 +4,6 @@
 
 }
 
-.A-1 {
-
-    max-width: 20rem;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.table {
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.btn-borrar {
-    padding: 5px 10px;
-}
 
 .img-a-1 {
 
@@ -31,4 +12,26 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 20%;
+}
+
+
+/* Estilos para el juego */
+.game-area {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+#circle {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
